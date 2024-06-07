@@ -4,12 +4,102 @@
 
 html {
     box-sizing: border-box;
+    background-image: url(SaltFlatsUtah.png);
 }
 
 /* Navbar container */
-body {
+header {
 	background-color: #081863;
+    border-radius: 15px;
 }
+
+main {
+    background: none;
+    background-color: none;
+    color: white;
+    margin: 12px;
+    margin-left: 50px;
+}
+
+.mainImage {
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.25);
+}
+
+.fullStory {
+    font-size: 1.25em;
+}
+
+.samples {
+    padding: 0;
+    border: solid 5px;
+    border-color: #5CCCEF;
+}
+
+.samples:hover{
+    padding: 0;
+    transition-duration: 300ms;
+    border: solid 5px;
+    border-color: white;
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.25);
+}
+
+footer {
+    
+}
+
+.copyright {
+    z-index: 2;
+    width: auto;
+    font-size: 1.25em;
+    align-content: right;
+    margin-left: 67.5%;
+    margin-top: 2%;
+    color: white;
+}
+
+.AboutMe {
+    background-color: rgb(0, 0, 0, .5);
+    width: 75%;
+    height: auto;
+    padding: .15em .25em .25em .25em;
+    font-size: 1.5em;
+    font-family: Mako, sans-serif;
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.25);
+}
+
+.AboutMe a {
+    z-index: 1;
+    color: #5CCCEF;
+    text-decoration: none;
+    font-family: Mako, sans-serif;
+    font-size: 1.25rem;
+    flex-shrink: 1;
+    list-style: none;
+    font-weight: 1500;
+}
+
+.AboutMe a:hover {
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    font-family: Mako, sans-serif;
+    font-size: 1.25rem;
+    flex-shrink: 1;
+    list-style: none;
+}
+
+.AboutMeList {
+    font-size: 1em;
+}
+
+.closeGap {
+    margin-bottom: 0;
+}
+
+.closeGapWeb {
+    margin-bottom: 3px;
+}
+
 
 .landing {
     height: auto;
