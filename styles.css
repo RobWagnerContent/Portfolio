@@ -50,9 +50,10 @@ footer {
 .copyright {
     z-index: 2;
     width: auto;
+    height: 50%;
     font-size: 1.25em;
     align-content: right;
-    margin-left: 67.5%;
+    margin-right: .5%;
     margin-top: 2%;
     color: white;
 }
